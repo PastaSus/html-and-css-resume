@@ -132,13 +132,14 @@ ul li{
 a:link,
 a:visited{
    text-decoration: none;
-   color: none;
+   color: var(--text);
 }
 
-/* a:hover,
+a:hover,
 a:active{
-   
-} */
+   color: var(--text-close-to-white);
+}
+
 
 .education{
    
